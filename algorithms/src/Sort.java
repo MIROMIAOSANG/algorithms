@@ -5,6 +5,8 @@
  * @author johnnylee
  */
 public class Sort {
+
+    private static Comparable[] aux;
     /**
      * selection sort
      *
@@ -44,6 +46,8 @@ public class Sort {
      */
     public static void shell(Comparable[] a) {
         int N = a.length;
+
+        //求增量
         int H = 1;
         while (H < N / 3) {
             H = 3 * H + 1;
@@ -59,6 +63,57 @@ public class Sort {
 
     }
 
+    /**
+     * top down merge(recursive
+     */
+    public static void TopDownSort(Comparable[] a){
+        aux=new Comparable[a.length];
+        sort(a,0,a.length-1);
+    }
+
+    /**
+     * down top merge
+     * @param a
+     */
+    public static void DownTopSort(Comparable[] a){
+        int N=a.length;
+        aux=new Comparable[N];
+        for(int sz=1;sz<N;sz=sz+sz){
+            for(int low=0;low<N-sz;low+=sz+sz){
+                merge(a,low,low+sz-1,Math.min(low+sz+sz-1,N-1));
+            }
+        }
+    }
+    public static void sort(Comparable[] a,int low,int high){
+        if(low>=high){
+            return;
+        }
+        int mid=(low+high)/2;
+        sort(a,low,mid);
+        sort(a,mid+1,high);
+        merge(a,low,mid,high);
+    }
+    public static void merge(Comparable[] a,int low,int mid,int high){
+        int i=low;
+        int j=mid+1;
+        for(int k=low;k<=high;k++){
+            aux[k]=a[k];
+        }
+        for(int k=low;k<=high;k++){
+            if(i>mid){
+                a[k]=aux[j++];
+            }
+            else if(j>high){
+                a[k]=aux[i++];
+            }
+            else if(less(aux[j],aux[i])){
+                a[k]=aux[j++];
+            }
+            else{
+                a[k]=aux[i++];
+            }
+        }
+    }
     private static boolean less(Comparable v, Comparable w) {
         return v.compareTo(w) < 0;
     }
