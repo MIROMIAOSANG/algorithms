@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f826eeeb-f950-48de-afdd-22fee8eaf41f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/BinarySearchTree.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/RedBlackBinarySearchTree.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/Sort.java" afterPath="$PROJECT_DIR$/src/Sort.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,43 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Sort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Sort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="151" column="14" lean-forward="false" selection-start-line="151" selection-start-column="14" selection-end-line="151" selection-end-column="14" />
-              <folding>
-                <element signature="e#3586#3587#0" expanded="true" />
-                <element signature="e#3621#3622#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MaxPrimaryQueue.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MaxPrimaryQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-              <folding>
-                <element signature="e#218#219#0" expanded="true" />
-                <element signature="e#261#262#0" expanded="true" />
-                <element signature="e#823#824#0" expanded="true" />
-                <element signature="e#870#871#0" expanded="true" />
-                <element signature="e#900#901#0" expanded="true" />
-                <element signature="e#923#924#0" expanded="true" />
-                <element signature="e#946#947#0" expanded="true" />
-                <element signature="e#964#965#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BinarySearchTree.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BinarySearchTree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BinarySearchTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="701">
-              <caret line="224" column="35" lean-forward="true" selection-start-line="224" selection-start-column="35" selection-end-line="224" selection-end-column="35" />
+            <state relative-caret-position="20">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding>
                 <element signature="e#443#444#0" expanded="true" />
                 <element signature="e#470#471#0" expanded="true" />
@@ -84,6 +51,16 @@
                 <element signature="e#3734#3735#0" expanded="true" />
                 <element signature="e#3768#3769#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RedBlackBinarySearchTree.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/RedBlackBinarySearchTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="560">
+              <caret line="28" column="25" lean-forward="false" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -124,8 +101,9 @@
         <option value="$PROJECT_DIR$/src/Evaluate.java" />
         <option value="$PROJECT_DIR$/src/FixedCapacityStackOfStrings.java" />
         <option value="$PROJECT_DIR$/src/MaxPrimaryQueue.java" />
-        <option value="$PROJECT_DIR$/src/Sort.java" />
         <option value="$PROJECT_DIR$/src/BinarySearchTree.java" />
+        <option value="$PROJECT_DIR$/src/Sort.java" />
+        <option value="$PROJECT_DIR$/src/RedBlackBinarySearchTree.java" />
       </list>
     </option>
   </component>
@@ -169,8 +147,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -183,11 +159,17 @@
               <item name="algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -352,7 +334,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517468897998</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="BinarySearchTree&#10;Using recursive method">
+      <created>1517668021728</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1517668021728</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -433,7 +422,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Primary Queue" />
-    <option name="LAST_COMMIT_MESSAGE" value="Primary Queue" />
+    <MESSAGE value="BinarySearchTree&#10;Using recursive method" />
+    <option name="LAST_COMMIT_MESSAGE" value="BinarySearchTree&#10;Using recursive method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -444,13 +434,100 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/BinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
+            <element signature="e#958#959#0" expanded="true" />
+            <element signature="e#996#997#0" expanded="true" />
+            <element signature="e#1402#1403#0" expanded="true" />
+            <element signature="e#1432#1433#0" expanded="true" />
+            <element signature="e#1559#1560#0" expanded="true" />
+            <element signature="e#1589#1590#0" expanded="true" />
+            <element signature="e#2185#2186#0" expanded="true" />
+            <element signature="e#2221#2222#0" expanded="true" />
+            <element signature="e#2516#2517#0" expanded="true" />
+            <element signature="e#2548#2549#0" expanded="true" />
+            <element signature="e#2874#2875#0" expanded="true" />
+            <element signature="e#2906#2907#0" expanded="true" />
+            <element signature="e#3123#3124#0" expanded="true" />
+            <element signature="e#3157#3158#0" expanded="true" />
+            <element signature="e#3734#3735#0" expanded="true" />
+            <element signature="e#3768#3769#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
+            <element signature="e#958#959#0" expanded="true" />
+            <element signature="e#996#997#0" expanded="true" />
+            <element signature="e#1402#1403#0" expanded="true" />
+            <element signature="e#1432#1433#0" expanded="true" />
+            <element signature="e#1559#1560#0" expanded="true" />
+            <element signature="e#1589#1590#0" expanded="true" />
+            <element signature="e#2185#2186#0" expanded="true" />
+            <element signature="e#2221#2222#0" expanded="true" />
+            <element signature="e#2516#2517#0" expanded="true" />
+            <element signature="e#2548#2549#0" expanded="true" />
+            <element signature="e#2874#2875#0" expanded="true" />
+            <element signature="e#2906#2907#0" expanded="true" />
+            <element signature="e#3123#3124#0" expanded="true" />
+            <element signature="e#3157#3158#0" expanded="true" />
+            <element signature="e#3734#3735#0" expanded="true" />
+            <element signature="e#3768#3769#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
+            <element signature="e#958#959#0" expanded="true" />
+            <element signature="e#996#997#0" expanded="true" />
+            <element signature="e#1402#1403#0" expanded="true" />
+            <element signature="e#1432#1433#0" expanded="true" />
+            <element signature="e#1559#1560#0" expanded="true" />
+            <element signature="e#1589#1590#0" expanded="true" />
+            <element signature="e#2185#2186#0" expanded="true" />
+            <element signature="e#2221#2222#0" expanded="true" />
+            <element signature="e#2516#2517#0" expanded="true" />
+            <element signature="e#2548#2549#0" expanded="true" />
+            <element signature="e#2874#2875#0" expanded="true" />
+            <element signature="e#2906#2907#0" expanded="true" />
+            <element signature="e#3123#3124#0" expanded="true" />
+            <element signature="e#3157#3158#0" expanded="true" />
+            <element signature="e#3734#3735#0" expanded="true" />
+            <element signature="e#3768#3769#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Sort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#3586#3587#0" expanded="true" />
-            <element signature="e#3621#3622#0" expanded="true" />
+            <element signature="e#3586#3587#0" expanded="false" />
+            <element signature="e#3621#3622#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -460,14 +537,14 @@
         <state relative-caret-position="893">
           <caret line="49" column="5" lean-forward="true" selection-start-line="39" selection-start-column="4" selection-end-line="49" selection-end-column="5" />
           <folding>
-            <element signature="e#218#219#0" expanded="true" />
-            <element signature="e#261#262#0" expanded="true" />
-            <element signature="e#823#824#0" expanded="true" />
-            <element signature="e#870#871#0" expanded="true" />
-            <element signature="e#900#901#0" expanded="true" />
-            <element signature="e#923#924#0" expanded="true" />
-            <element signature="e#946#947#0" expanded="true" />
-            <element signature="e#964#965#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="false" />
+            <element signature="e#261#262#0" expanded="false" />
+            <element signature="e#823#824#0" expanded="false" />
+            <element signature="e#870#871#0" expanded="false" />
+            <element signature="e#900#901#0" expanded="false" />
+            <element signature="e#923#924#0" expanded="false" />
+            <element signature="e#946#947#0" expanded="false" />
+            <element signature="e#964#965#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -477,8 +554,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#3586#3587#0" expanded="true" />
-            <element signature="e#3621#3622#0" expanded="true" />
+            <element signature="e#3586#3587#0" expanded="false" />
+            <element signature="e#3621#3622#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -488,8 +565,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#3586#3587#0" expanded="true" />
-            <element signature="e#3621#3622#0" expanded="true" />
+            <element signature="e#3586#3587#0" expanded="false" />
+            <element signature="e#3621#3622#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -499,8 +576,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#3586#3587#0" expanded="true" />
-            <element signature="e#3621#3622#0" expanded="true" />
+            <element signature="e#3586#3587#0" expanded="false" />
+            <element signature="e#3621#3622#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -531,8 +608,8 @@
         <state relative-caret-position="703">
           <caret line="37" column="5" lean-forward="false" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
           <folding>
-            <element signature="e#3586#3587#0" expanded="true" />
-            <element signature="e#3621#3622#0" expanded="true" />
+            <element signature="e#3586#3587#0" expanded="false" />
+            <element signature="e#3621#3622#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -549,8 +626,8 @@
         <state relative-caret-position="228">
           <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
           <folding>
-            <element signature="e#3586#3587#0" expanded="true" />
-            <element signature="e#3621#3622#0" expanded="true" />
+            <element signature="e#3586#3587#0" expanded="false" />
+            <element signature="e#3621#3622#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -574,8 +651,8 @@
         <state relative-caret-position="228">
           <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
           <folding>
-            <element signature="e#3586#3587#0" expanded="true" />
-            <element signature="e#3621#3622#0" expanded="true" />
+            <element signature="e#3586#3587#0" expanded="false" />
+            <element signature="e#3621#3622#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -606,8 +683,8 @@
         <state relative-caret-position="228">
           <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
           <folding>
-            <element signature="e#3586#3587#0" expanded="true" />
-            <element signature="e#3621#3622#0" expanded="true" />
+            <element signature="e#3586#3587#0" expanded="false" />
+            <element signature="e#3621#3622#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -753,36 +830,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Sort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="151" column="14" lean-forward="false" selection-start-line="151" selection-start-column="14" selection-end-line="151" selection-end-column="14" />
+        <state relative-caret-position="3540">
+          <caret line="177" column="3" lean-forward="true" selection-start-line="177" selection-start-column="3" selection-end-line="177" selection-end-column="3" />
           <folding>
-            <element signature="e#3586#3587#0" expanded="true" />
-            <element signature="e#3621#3622#0" expanded="true" />
+            <element signature="e#3586#3587#0" expanded="false" />
+            <element signature="e#3621#3622#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MaxPrimaryQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        <state relative-caret-position="-7">
+          <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
           <folding>
-            <element signature="e#218#219#0" expanded="true" />
-            <element signature="e#261#262#0" expanded="true" />
-            <element signature="e#823#824#0" expanded="true" />
-            <element signature="e#870#871#0" expanded="true" />
-            <element signature="e#900#901#0" expanded="true" />
-            <element signature="e#923#924#0" expanded="true" />
-            <element signature="e#946#947#0" expanded="true" />
-            <element signature="e#964#965#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="false" />
+            <element signature="e#261#262#0" expanded="false" />
+            <element signature="e#823#824#0" expanded="false" />
+            <element signature="e#870#871#0" expanded="false" />
+            <element signature="e#900#901#0" expanded="false" />
+            <element signature="e#923#924#0" expanded="false" />
+            <element signature="e#946#947#0" expanded="false" />
+            <element signature="e#964#965#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="701">
-          <caret line="224" column="35" lean-forward="true" selection-start-line="224" selection-start-column="35" selection-end-line="224" selection-end-column="35" />
+        <state relative-caret-position="20">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding>
             <element signature="e#443#444#0" expanded="true" />
             <element signature="e#470#471#0" expanded="true" />
@@ -805,6 +882,14 @@
             <element signature="e#3734#3735#0" expanded="true" />
             <element signature="e#3768#3769#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RedBlackBinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="28" column="25" lean-forward="false" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
