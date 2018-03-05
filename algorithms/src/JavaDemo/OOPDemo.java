@@ -13,5 +13,6 @@ public class OOPDemo {
     System.out.println(LocalDate.now());
 //    System.out.println(1/0);
     System.out.println(1.0/0);
+    System.out.print(1);
   }
 }
