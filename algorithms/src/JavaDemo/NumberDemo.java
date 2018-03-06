@@ -1,6 +1,8 @@
 package JavaDemo;
 
+import java.awt.Toolkit;
 import java.util.Arrays;
+import java.util.Timer;
 
 /**
  * Testing how to use the eight types of data
