@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cff6c417-6acc-4c15-838a-df96ecec11ed" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/stdlib.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/algorithms/src/GenericsArrayOfStack.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/algorithms/src/LinkedlistOfStack.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/algorithms/src/StringArrayOfStack.java" />
-      <change beforePath="$PROJECT_DIR$/algorithms/algorithms.iml" afterPath="$PROJECT_DIR$/algorithms/algorithms.iml" />
-      <change beforePath="$PROJECT_DIR$/algorithms/src/JavaDemo/NumberDemo.java" afterPath="$PROJECT_DIR$/algorithms/src/JavaDemo/NumberDemo.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,8 +64,8 @@
       <file leaf-file-name="UF.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/algorithms/src/UF.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+            <state relative-caret-position="660">
+              <caret line="45" column="13" lean-forward="true" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -180,7 +168,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
     <property name="last_opened_file_path" value="$USER_HOME$/disk/disk3/stdlib.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -378,7 +366,14 @@
       <option name="project" value="LOCAL" />
       <updated>1520262267037</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="review bag,stack,queue">
+      <created>1520342321176</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1520342321176</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -416,7 +411,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first day" />
-    <option name="LAST_COMMIT_MESSAGE" value="first day" />
+    <MESSAGE value="review bag,stack,queue" />
+    <option name="LAST_COMMIT_MESSAGE" value="review bag,stack,queue" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -600,8 +596,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithms/src/UF.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        <state relative-caret-position="660">
+          <caret line="45" column="13" lean-forward="true" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
           <folding />
         </state>
       </provider>
