@@ -28,10 +28,17 @@ public class Sort {
    */
   public static void insertion(Comparable[] a) {
     int N = a.length;
+    Comparable temp;
     for (int i = 1; i < N; i++) {
-      for (int j = i; j > 0 && less(a[j], a[j - 1]); j--) {
-        exch(a, j, j - 1);
+      int j = i;
+      temp=a[j];
+      for (; j > 0 && less(a[j], a[j - 1]); j--) {
+        //改进前
+       // exch(a, j, j - 1);
+        //改进后
+        a[j]=a[j-1];
       }
+      a[j]=temp;
     }
   }
 
