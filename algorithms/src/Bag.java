@@ -27,6 +27,7 @@ public class Bag<Item> implements Iterable<Item> {
 	}
 
 	private class ListIterator implements Iterator<Item> {
+
 		private Node current = first;
 
 		public boolean hasNext() {
@@ -42,8 +43,4 @@ public class Bag<Item> implements Iterable<Item> {
 			return item;
 		}
 	}
-
-	public static void main(String[] args) {
-	}
-
 }
