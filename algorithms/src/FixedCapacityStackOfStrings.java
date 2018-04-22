@@ -6,7 +6,7 @@ import java.util.Iterator;
  * @author johnnylee
  * @version 20180124
  */
-public class FixedCapacityStackOfStrings<Item> {
+public class FixedCapacityStackOfStrings<Item> implements Iterable<Item>{
     private Item[] s;
     private int N = 0;
 
@@ -53,6 +53,7 @@ public class FixedCapacityStackOfStrings<Item> {
         s = item;
     }
 
+    @Override
     public Iterator<Item> iterator() {
         return new ReverseArrayIterator();
     }
@@ -81,17 +82,4 @@ public class FixedCapacityStackOfStrings<Item> {
         }
     }
 
-    public static void main(String[] args) {
-        FixedCapacityStackOfStrings<String> s;
-        s = new FixedCapacityStackOfStrings<>(100);
-        while (!StdIn.isEmpty()) {
-            String item = StdIn.readString();
-            if (!item.equals("-")) {
-                s.push(item);
-            } else if (!s.isEmpty()) {
-                StdOut.print(s.pop() + " ");
-            }
-        }
-        StdOut.println("(" + s.size() + "left on stack)");
-    }
 }
