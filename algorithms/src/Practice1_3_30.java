@@ -44,4 +44,20 @@ public class Practice1_3_30 {
 
         return newFirst;
     }
+
+    public Node reverseRecursion(Node oldFirst){
+        if (oldFirst==null){
+            return null;
+        }
+
+        if (oldFirst.next==null){
+            return oldFirst;
+        }
+
+        Node second=oldFirst.next;
+        Node rest=reverseRecursion(second);
+        second.next=oldFirst;
+        oldFirst.next=null;
+        return rest;
+    }
 }
